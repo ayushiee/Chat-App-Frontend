@@ -16,7 +16,7 @@ export default function UserCard({user, onUserSelect}) {
                     {name}
                 </div>
                 <div className='status'>
-                    {status} <BsDot size={20} /> {day}
+                    {status} <BsDot size={20} /> Last seen on {day}
                 </div>
                 </div>
             </div>

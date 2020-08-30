@@ -25,10 +25,12 @@ export const generateUsers = (count) => {
 
 export const getBotReply = (message) => {
     const botId = "bot-user";
-    let content = "I do not know what to say";
+    let content = "I do not know what to say, ttyl?";
 
-    if (message.includes("hello")) {
-        content = "well, hello there";
+    if (message.includes("Hello")) {
+        content = "Well, hello there";
+    } else if (message.includes("Bye")) {
+        content = "Bye";
     }
 
     return makeMessage(botId, content);
