@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import MainContainer from './Containers/MainContainer';
+import MainContainer from './Containers/HomeContainer';
+// import UserWindow from './Components/UserWindow';
 
 function App() {
   return (
     <div className="App">
      <MainContainer />
+     {/* <UserWindow /> */}
      </div>
   );
 }

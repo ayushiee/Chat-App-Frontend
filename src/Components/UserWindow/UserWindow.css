@@ -1,0 +1,44 @@
+.userContainer {
+    background-color: white;
+    display: flex;
+    padding:  1em 1.5em;
+    width: 20vw;
+    /* border-bottom: 1px solid #d8d7d7; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.5rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    justify-items: left;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    max-width: 12vw;
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 0 0.8em;
+}
+
+.status {
+    text-align: left;
+    font-size: 0.9rem;
+}

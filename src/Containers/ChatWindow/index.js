@@ -5,7 +5,7 @@ import TextComponent from "../../Components/TextComponent";
 import TitleBar from "../../Components/TitleBar";
 import {generateUsers, getBotReply, makeMessage} from '../../utils';
 
-import "./MainContainer.css";
+import "./ChatWindow.css";
 
 function MainContainer() {
     const user = {
@@ -41,14 +41,14 @@ function MainContainer() {
         });
 
     return (
-        <div className="mainContainer">
+        // <div className="mainContainer">
             <div className="chatWindow">
                 <TitleBar />
                 <div className="texts">{renderMessages()}</div>
                 <div className="inputTexts">
                     <MessageInput onSend={onSend} />
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     );
 }
