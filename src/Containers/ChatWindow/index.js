@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import MessageInput from "../../Components/MessageInput";
 import TextComponent from "../../Components/TextComponent";
 import TitleBar from "../../Components/TitleBar";
-import { generateUsers, getBotReply, makeMessage } from '../../utils';
+import { getBotReply, makeMessage } from '../../utils';
+import Chat from '../../assets/chat.svg';
 
 import "./ChatWindow.css";
 
@@ -45,7 +46,10 @@ function MainContainer({ currentUser }) {
                     </div>
                     </>
                 :
-                <div>Start texting</div>
+                <div className='noChat'>
+                    <img src={Chat} alt='no chats' className='altImage' />
+                    <h2>Let's start messaging!</h2>
+                </div>
             }
                 </div>
         </>

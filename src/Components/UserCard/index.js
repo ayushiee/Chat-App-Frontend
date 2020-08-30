@@ -1,4 +1,6 @@
 import React from 'react';
+import {BsDot} from 'react-icons/bs';
+
 import './UserCard.css';
 
 export default function UserCard({user, onUserSelect}) {
@@ -14,7 +16,7 @@ export default function UserCard({user, onUserSelect}) {
                     {name}
                 </div>
                 <div className='status'>
-                    {status} {day}
+                    {status} <BsDot size={20} /> {day}
                 </div>
                 </div>
             </div>

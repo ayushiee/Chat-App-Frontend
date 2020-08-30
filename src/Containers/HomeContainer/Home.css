@@ -10,6 +10,9 @@
 .userList {
   min-height: 90vh;
   background-color: white;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+
 }
 
 .myUser {
@@ -19,6 +22,7 @@
   padding: 1em 1.5em;
   width: 20vw;
   align-items: center;
+  border-top-left-radius: 0.5em;
   justify-content: space-between;
 }
 .iconsRow {

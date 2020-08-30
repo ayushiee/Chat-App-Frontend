@@ -46,4 +46,8 @@
 .status {
     text-align: left;
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #919191
 }
