@@ -7,11 +7,11 @@ It is a basic Chat App frontend for Zomentum pre-placement task.
 * faker: For name, image, and day generation
 
 ## Demo
-![Demo-1](src/assets/Demo1.gif)
+![Demo-1](src/assets/Demo-1.gif)
 <br />
 <br />
 
-![Demo-2](src/assets/Demo2.gif)
+![Demo-2](src/assets/Demo-2.gif)
 <br />
 
 ## Technologies used
