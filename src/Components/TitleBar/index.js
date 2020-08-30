@@ -14,7 +14,7 @@ export default function TitleBar({ currentUser }) {
             </div>
             <div className='actions'>
                 <IoIosVideocam size={25} color='#191970' className='icon' />
-                <IoIosCall size={25} color='#191970' />
+                <IoIosCall size={25} color='#191970' className='icon'/>
             </div>
         </div>
     )
