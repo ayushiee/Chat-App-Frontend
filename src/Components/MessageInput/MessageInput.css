@@ -5,6 +5,7 @@
   justify-self: flex-end;
   margin-top: 1em;
   padding: 1.2em;
+  border-bottom-right-radius: 0.5em;
   border-top: 1px solid #d6d3d3;
 }
 

@@ -10,6 +10,7 @@ It is a basic Chat App frontend for Zomentum pre-placement task.
 ![Demo-1](src/assets/Demo1.gif)
 <br />
 <br />
+
 ![Demo-2](src/assets/Demo2.gif)
 <br />
 

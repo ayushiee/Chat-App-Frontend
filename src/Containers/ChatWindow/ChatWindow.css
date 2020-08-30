@@ -1,43 +1,41 @@
-
 .chatWindow {
-    background-color: #edf1f4;
-    width: 50vw;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+  background-color: #edf1f4;
+  width: 50vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
 }
 
 .texts {
-    padding: 0.9em 1.5em;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    overflow: auto;
+  padding: 0.9em 1.5em;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: auto;
 }
 
 .inputTexts {
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
 }
 
 .noChat {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-self: center;
-    width: 40vw;
-    height: 70vh;
-    margin-top: 4em;
-    color: '#191970'
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  width: 40vw;
+  height: 70vh;
+  margin-top: 4em;
+  color: "#191970";
 }
 
 .altImage {
-    overflow: hidden;
-    object-fit: fit;
-    width: 40vw;
-    height: 70vh;
+  overflow: hidden;
+  object-fit: fit;
+  width: 40vw;
+  height: 70vh;
 }
-

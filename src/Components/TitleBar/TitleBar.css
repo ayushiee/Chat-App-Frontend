@@ -4,12 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top-right-radius: 0.5em;
   border-bottom: 1px solid #d8d7d7;
 }
 
 .userInfo {
   display: flex;
-flex-direction: row;
+  flex-direction: row;
 }
 
 .profileIcon {
@@ -20,10 +21,10 @@ flex-direction: row;
 }
 
 .username {
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-left: 1em;
-    text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 1em;
+  text-transform: capitalize;
 }
 
 .actions {
@@ -33,5 +34,4 @@ flex-direction: row;
 
 .icon {
   margin: 0 0.6em;
-
 }
