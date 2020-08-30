@@ -1,0 +1,43 @@
+.msgInputContainer {
+/* background-color: #191970; */
+display: flex;
+justify-content: center;
+/* justify-self: flex-end; */
+}
+
+.textInput {
+    outline: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0.4px;
+    border-bottom-color:lightgray;
+    padding: 0.4rem 0.6rem;
+    background-color: transparent;
+    width: 80%;
+    min-height: 25px;
+    max-height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: whitesmoke;
+    cursor: text;
+}
+
+.sendButton {
+    color: #191970;
+    background-color:#aadae0 ;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0.56em;
+    outline: none;
+    transition: linear 200ms;
+    border-radius: 2px;
+    margin-left: 1rem;
+}
+.sendButton:hover {
+    background-color:#B0E0E6;
+    cursor: pointer;
+    transform: translateY(-2px);
+}

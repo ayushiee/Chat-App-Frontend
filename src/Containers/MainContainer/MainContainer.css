@@ -1,0 +1,44 @@
+.mainContainer {
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatWindow {
+    background-color: rgb(235, 226, 226);
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.profileIcon {
+width: 2rem;
+height: 2rem;
+border-radius: 2rem;
+background-color: darkkhaki;
+object-fit: cover;
+}
+
+.senderChatBubble {
+    width: fit-content;
+    height: fit-content;
+    background-color: #B0E0E6;
+    padding: 0.6rem;
+    border-radius: 0.8em;
+    align-self: flex-end;
+}
+
+.receiverChatBubble {
+    width: fit-content;
+    height: fit-content;
+    background-color: #F0F8FF;
+    padding: 0.6rem;
+    border-radius: 0.8em;
+    align-self: flex-start;
+}
+
