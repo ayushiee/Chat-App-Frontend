@@ -13,32 +13,22 @@
     height: 80vh;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
-.profileIcon {
-width: 2rem;
-height: 2rem;
-border-radius: 2rem;
-background-color: darkkhaki;
-object-fit: cover;
+.texts {
+    padding: 0.9em 0.5em;
+    display: flex;
+    flex-direction: column;
 }
 
-.senderChatBubble {
-    width: fit-content;
-    height: fit-content;
-    background-color: #B0E0E6;
-    padding: 0.6rem;
-    border-radius: 0.8em;
-    align-self: flex-end;
+.inputTexts {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    /* align-items:; */
+    background-color: violet;
 }
 
-.receiverChatBubble {
-    width: fit-content;
-    height: fit-content;
-    background-color: #F0F8FF;
-    padding: 0.6rem;
-    border-radius: 0.8em;
-    align-self: flex-start;
-}
+
 

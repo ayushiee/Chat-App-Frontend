@@ -1,0 +1,18 @@
+.senderChatBubble {
+    width: fit-content;
+    height: fit-content;
+    background-color: #B0E0E6;
+    padding: 0.6rem;
+    border-radius: 0.8em;
+    align-self: flex-end;
+    margin: 0.2em 0;
+}
+.receiverChatBubble {
+    width: fit-content;
+    height: fit-content;
+    background-color: #F0F8FF;
+    padding: 0.6rem;
+    border-radius: 0.8em;
+    align-self: flex-start;
+    margin: 0.2em 0;
+}

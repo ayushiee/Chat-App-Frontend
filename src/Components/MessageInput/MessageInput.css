@@ -2,7 +2,8 @@
 /* background-color: #191970; */
 display: flex;
 justify-content: center;
-/* justify-self: flex-end; */
+justify-self: flex-end;
+margin-top: 1em;
 }
 
 .textInput {

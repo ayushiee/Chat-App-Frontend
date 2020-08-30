@@ -1,11 +1,12 @@
 import React from 'react';
-import './MessageInput.css';
+import './TextComponent.css';
 
-export default function MessageInput() {
+export default function MessageInput({text, isMe}) {
+
     return (
-        <div className='msgInputContainer'>
-            <input type='text' className='textInput' placeholder='Type a message' />
-            <button type='submit' className='sendButton'>Send</button>
-        </div>
+    <div className={isMe?'senderChatBubble': 'receiverChatBubble'}>
+        {text}
+    </div>
+    
     )
 };

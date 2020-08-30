@@ -1,0 +1,21 @@
+.container {
+  background-color: azure;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.profileIcon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  background-color: darkkhaki;
+  object-fit: cover;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 1em;
+    text-transform: capitalize;
+}

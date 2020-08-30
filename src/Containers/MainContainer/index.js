@@ -1,26 +1,27 @@
-import React from 'react';
-import './MainContainer.css';
-import MessageInput from '../../Components/MessageInput';
+import React from "react";
+
+import MessageInput from "../../Components/MessageInput";
+import TextComponent from "../../Components/TextComponent";
+import TitleBar from "../../Components/TitleBar";
+
+import "./MainContainer.css";
 
 function MainContainer() {
-
-    return (
-        <div className='mainContainer'>
-            hello
-            <div className='chatWindow'>
-                <div className='profileIcon'>
-                    oh
-                </div>
-                <div className='senderChatBubble'>
-                    hello
-                </div>
-                <div className='receiverChatBubble'>
-                    hello
-                </div>
-                <MessageInput />
-            </div>
+  return (
+    <div className="mainContainer">
+      <div className="chatWindow">
+        <TitleBar />
+        <div className="texts">
+          <TextComponent text="helloooo" isMe />
+          <TextComponent text="helloooo" isMe={false} />
+          <TextComponent text="helloooo" isMe />
         </div>
-    )
+        <div className="inputTexts">
+          <MessageInput />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default MainContainer;
