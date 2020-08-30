@@ -4,6 +4,7 @@ display: flex;
 justify-content: center;
 justify-self: flex-end;
 margin-top: 1em;
+padding: 1.2em;
 }
 
 .textInput {
@@ -20,7 +21,7 @@ margin-top: 1em;
     max-height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
-    color: whitesmoke;
+    /* color: whitesmoke; */
     cursor: text;
 }
 

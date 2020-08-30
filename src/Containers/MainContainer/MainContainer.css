@@ -19,7 +19,9 @@
 .texts {
     padding: 0.9em 0.5em;
     display: flex;
+    flex: 1;
     flex-direction: column;
+    overflow: auto;
 }
 
 .inputTexts {
@@ -27,7 +29,7 @@
     flex-direction: column;
     justify-self: flex-end;
     /* align-items:; */
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 
