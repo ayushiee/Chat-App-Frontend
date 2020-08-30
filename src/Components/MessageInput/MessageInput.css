@@ -1,10 +1,11 @@
 .msgInputContainer {
-/* background-color: #191970; */
+background-color: #d7e0e6;
 display: flex;
 justify-content: center;
 justify-self: flex-end;
 margin-top: 1em;
 padding: 1.2em;
+border-top: 1px solid #d6d3d3;
 }
 
 .textInput {
@@ -16,7 +17,7 @@ padding: 1.2em;
     border-bottom-color:lightgray;
     padding: 0.4rem 0.6rem;
     background-color: transparent;
-    width: 80%;
+    width: 100%;
     min-height: 25px;
     max-height: 100px;
     overflow-x: hidden;

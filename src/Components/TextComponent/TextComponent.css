@@ -1,7 +1,7 @@
 .senderChatBubble {
     width: fit-content;
     height: fit-content;
-    background-color: #B0E0E6;
+    background-color: #bcd2e1;
     padding: 0.6rem;
     border-radius: 0.8em;
     align-self: flex-end;
@@ -10,7 +10,7 @@
 .receiverChatBubble {
     width: fit-content;
     height: fit-content;
-    background-color: #F0F8FF;
+    background-color: #ffffff;
     padding: 0.6rem;
     border-radius: 0.8em;
     align-self: flex-start;

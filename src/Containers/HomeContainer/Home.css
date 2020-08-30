@@ -1,9 +1,16 @@
 .home {
-    background-color: burlywood;
+    background-color: #1B4FAF;
     width: 100vw;
-    height: 100vh;
+    height: 100vh; 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2em;
+   
 }

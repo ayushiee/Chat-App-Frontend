@@ -1,23 +1,14 @@
-.mainContainer {
-    background-color: bisque;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .chatWindow {
-    background-color: rgb(235, 226, 226);
+    background-color: #edf1f4;
     width: 50vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    /* padding: 1rem; */
 }
 
 .texts {
-    padding: 0.9em 0.5em;
+    padding: 0.9em 1.5em;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -28,8 +19,6 @@
     display: flex;
     flex-direction: column;
     justify-self: flex-end;
-    /* align-items:; */
-    /* background-color: violet; */
 }
 
 

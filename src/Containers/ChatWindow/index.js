@@ -41,14 +41,12 @@ function MainContainer() {
         });
 
     return (
-        // <div className="mainContainer">
             <div className="chatWindow">
                 <TitleBar />
                 <div className="texts">{renderMessages()}</div>
                 <div className="inputTexts">
                     <MessageInput onSend={onSend} />
                 </div>
-            {/* </div> */}
         </div>
     );
 }
