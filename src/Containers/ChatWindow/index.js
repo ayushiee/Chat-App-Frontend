@@ -3,24 +3,17 @@ import React, { useState, useEffect } from "react";
 import MessageInput from "../../Components/MessageInput";
 import TextComponent from "../../Components/TextComponent";
 import TitleBar from "../../Components/TitleBar";
-import {generateUsers, getBotReply, makeMessage} from '../../utils';
+import { generateUsers, getBotReply, makeMessage } from '../../utils';
 
 import "./ChatWindow.css";
 
-function MainContainer() {
-    const user = {
-        id: "user-me",
-    };
+function MainContainer({ currentUser }) {
 
     const [messages, setMessages] = useState([]);
 
-    useEffect(() => {
-        const users = generateUsers(4)
-        console.log(users);
-    }, []);
-
     const onSend = (content) => {
-        const message = makeMessage(user.id, content);
+        const { userId } = currentUser;
+        const message = makeMessage(userId, content);
         const botMessage = getBotReply(content);
 
         setMessages((messages) => {
@@ -35,19 +28,27 @@ function MainContainer() {
     const renderMessages = () =>
         messages.map((message, index) => {
             const { userId, content } = message;
-            const isMe = userId === user.id;
+            const isMe = userId === currentUser.userId;
 
             return <TextComponent key={index} text={content} isMe={isMe} />;
         });
 
     return (
-            <div className="chatWindow">
-                <TitleBar />
-                <div className="texts">{renderMessages()}</div>
-                <div className="inputTexts">
-                    <MessageInput onSend={onSend} />
+        <>
+                <div className="chatWindow">
+            {currentUser ?
+            <>
+                    <TitleBar currentUser={currentUser} />
+                    <div className="texts">{renderMessages()}</div>
+                    <div className="inputTexts">
+                        <MessageInput onSend={onSend} />
+                    </div>
+                    </>
+                :
+                <div>Start texting</div>
+            }
                 </div>
-        </div>
+        </>
     );
 }
 

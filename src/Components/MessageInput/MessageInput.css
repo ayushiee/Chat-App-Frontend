@@ -1,46 +1,39 @@
 .msgInputContainer {
-background-color: #d7e0e6;
-display: flex;
-justify-content: center;
-justify-self: flex-end;
-margin-top: 1em;
-padding: 1.2em;
-border-top: 1px solid #d6d3d3;
+  background-color: #d7e0e6;
+  display: flex;
+  justify-content: center;
+  justify-self: flex-end;
+  margin-top: 1em;
+  padding: 1.2em;
+  border-top: 1px solid #d6d3d3;
 }
 
 .textInput {
-    outline: none;
-    border-top-width: 0;
-    border-right-width: 0;
-    border-left-width: 0;
-    border-bottom-width: 0.4px;
-    border-bottom-color:lightgray;
-    padding: 0.4rem 0.6rem;
-    background-color: transparent;
-    width: 100%;
-    min-height: 25px;
-    max-height: 100px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    /* color: whitesmoke; */
-    cursor: text;
+  outline: none;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0.4px;
+  border-bottom-color: lightgray;
+  padding: 0.4rem 0.6rem;
+  background-color: transparent;
+  width: 100%;
+  min-height: 25px;
+  max-height: 100px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  cursor: text;
 }
 
 .sendButton {
-    color: #191970;
-    background-color:#aadae0 ;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 0.56em;
-    outline: none;
-    transition: linear 200ms;
-    border-radius: 2px;
-    margin-left: 1rem;
+  background-color: #d7e0e6;
+  border: none;
+  text-align: center;
+  outline: none;
+  transition: linear 200ms;
+  border-radius: 2px;
 }
 .sendButton:hover {
-    background-color:#B0E0E6;
-    cursor: pointer;
-    transform: translateY(-2px);
+  cursor: pointer;
+  transform: translateY(-4px);
 }

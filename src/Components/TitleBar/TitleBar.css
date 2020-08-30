@@ -3,8 +3,13 @@
   padding: 1em;
   display: flex;
   align-items: center;
-  /* border-bottom-right-radius: 1.2em;
-  border-bottom-left-radius: 1.2em; */
+  justify-content: space-between;
+  border-bottom: 1px solid #d8d7d7;
+}
+
+.userInfo {
+  display: flex;
+flex-direction: row;
 }
 
 .profileIcon {
@@ -19,4 +24,14 @@
     font-size: 1.5rem;
     margin-left: 1em;
     text-transform: capitalize;
+}
+
+.actions {
+  margin-right: 0.4em;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 0 0.6em;
+
 }

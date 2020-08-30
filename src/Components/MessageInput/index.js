@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import {IoIosSend} from 'react-icons/io';
+
 import "./MessageInput.css";
 
 export default function MessageInput({ onSend }) {
@@ -28,7 +30,7 @@ export default function MessageInput({ onSend }) {
         placeholder="Type a message"
       />
       <button type="submit" onClick={onSubmit} className="sendButton">
-        Send
+        <IoIosSend size={30} color='#191970' />
       </button>
     </div>
   );

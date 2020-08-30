@@ -1,14 +1,21 @@
 import React from 'react';
+import { IoIosCall, IoIosVideocam } from 'react-icons/io';
+
 import './TitleBar.css';
 
-export default function TitleBar() {
-    const image='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'
-    const name='Sam Dean hhhhhhhhhhhhhhhh';
-   
+export default function TitleBar({ currentUser }) {
+    const { avatar, name } = currentUser;
+
     return (
         <div className='container'>
-            <img src={image} className='profileIcon' alt='user-dp' />
-            <div className='username'>{name}</div>
+            <div className='userInfo'>
+                <img src={avatar} className='profileIcon' alt='user-dp' />
+                <div className='username'>{name}</div>
+            </div>
+            <div className='actions'>
+                <IoIosVideocam size={25} color='#191970' className='icon' />
+                <IoIosCall size={25} color='#191970' />
+            </div>
         </div>
     )
 };

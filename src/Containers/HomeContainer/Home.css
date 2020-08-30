@@ -7,6 +7,23 @@
     justify-content: center;
 }
 
+.userList {
+    min-height: 90vh;
+    background-color: white;
+}
+
+.myUser {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    padding:  1em 1.5em;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+
 .content {
     display: flex;
     width: fit-content;

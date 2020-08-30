@@ -1,5 +1,5 @@
 import React from 'react';
-import UserWindow from '../../Components/UserWindow';
+import UserWindow from '../../Components/UserCard';
 import './ChatSideNav.css';
 
 export default function SideNav() {
@@ -10,7 +10,7 @@ export default function SideNav() {
             <div className='myUser'>
                 <img src={image} alt='dp' className='dp' />
             </div>
-            {count.map((_, index) => <UserWindow />)}
+            {count.map((_, index) => <UserWindow use />)}
         </div>
     )
 }

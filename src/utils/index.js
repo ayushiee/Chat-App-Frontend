@@ -14,6 +14,7 @@ export const generateUsers = (count) => {
             userId: "user-me",
             name: faker.name.findName(),
             avatar: faker.image.image(),
+            day: faker.date.weekday(),
         };
 
         users.push(fakeUser);
