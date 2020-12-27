@@ -1,5 +1,5 @@
 # Chat App
-It is a basic Chat App frontend for Zomentum pre-placement task.
+A basic functioning Chat App frontend.
 
 
 ### External Libraries Used
